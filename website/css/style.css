@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+    color: lightgrey;
+}
+h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 54px;
+}
+h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+}
+nav ul ol {
+    display: inline-block;
+    margin: 5%;
+    padding: 5%;
+}
+#orga {
+    color: black;
+    position: relative;
+}
+#structure {
+    color: black;
+    margin: 25%;
+    padding: 25%;
+}
+#comment {
+    color: black;
+    margin: 25%;
+    padding: 25%;
+}
+#header {
+    font-size: 54px;
+    text-align: center;
+}
+#orga-work {
+    background-color: #00445D;
+    font-family: "Nova Mono", sans-serif;
+    font-size: 100%;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
+}
+#declaration {
+    background-color: #FFDF0A;
+    font-family: "Nova Mono", sans-serif;
+    color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
+}
+#3 {
+    background-color: indianred;
+    font-family: "Nova Mono", sans-serif;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: -20px;
+}
