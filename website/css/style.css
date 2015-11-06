@@ -15,19 +15,31 @@ nav ul ol {
     margin: 5%;
     padding: 5%;
 }
+
+a:visited {
+    color: grey;
+}
 #orga {
     color: black;
     position: relative;
+    font-family: "Shadows Into Light", cursive;
+    margin: 25%;
+    padding: 25%;
+    font-size: 1.5em;
 }
 #structure {
     color: black;
     margin: 25%;
     padding: 25%;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 1.5em;
 }
 #comment {
     color: black;
     margin: 25%;
     padding: 25%;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 1.5em;
 }
 #header {
     font-size: 54px;
@@ -36,31 +48,22 @@ nav ul ol {
 #orga-work {
     background-color: #00445D;
     font-family: "Nova Mono", sans-serif;
-    font-size: 100%;
+    font-size: 18px;
     color: white;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     margin: -20px;
 }
 #declaration {
     background-color: #FFDF0A;
     font-family: "Nova Mono", sans-serif;
+    font-size: 18px;
     color: black;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin: -20px;
-}
-#3 {
-    background-color: indianred;
-    font-family: "Nova Mono", sans-serif;
-    color: white;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     margin: -20px;
 }
