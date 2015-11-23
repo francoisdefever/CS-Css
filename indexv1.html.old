@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="website/pictures/css3.ico" />
+    <link rel="stylesheet" href="website/css/style.css">
+    <link rel="stylesheet" href="website/css/styletab.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="website/css/stylesmart.css" media="screen and (max-width:320px)">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" type="text/css">
+    <title>Css learning</title>
+</head>
+
+<body>
+    <section id="header">
+        <h1>Css Learning</h1>
+    </section>
+
+    <nav>
+        <ul>
+            <ol>
+                <a id="orga" href="#orga-work">Responsive</a>
+            </ol>
+            <ol>
+                <a id="structure" href="#orga-structure">Déclaration</a>
+            </ol>
+        </ul>
+    </nav>
+
+    <section id="orga-work">
+        <h2>Pour créer un site "responsive" et "mobile first"</h2>
+        <h3>La théorie Media Queries</h3>
+        <p>La spécification CSS3 Media Queries définit les techniques pour l'application de feuilles de styles en fonction des périphériques de consultation utilisés pour du HTML. On nomme également cette pratique Responsive Web Design, pour dénoter qu'il
+            s'agit d'adapter dynamiquement le design à l'aide de CSS.
+            <br/> Pour les bonnes pratiques il est conseillé de créer une feuille de style pour chaque supports. Par exemple : style.css, styletab.css et stylesmart.css.</p>
+
+        <h3>L'application Media Queries</h3>
+        <p>Afin de linker le Html, les trois feuilles de style et appliquer différents attributs selon les tailles. Il convient d'utiliser dans le header par exemple :
+            <br/>
+            <code>&ltlink rel="stylesheet" href="style.css"&gt</code>
+            <br/>
+            <code>&ltlink rel="stylesheet" href="styletab.css" media="screen and (max-width:768px)"&gt</code>
+            <br/>
+            <code>&ltlink rel="stylesheet" href="stylesmart.css" media="screen and (max-width:320px)"&gt</code>
+        </p>
+
+        <h3>Les expressions</h3>
+        <ul>
+            <li>all : tous types de supports ou média</li>
+            <li>aural : navigateur à synthèse vocale</li>
+            <li>braille : plages braille</li>
+            <li>embossed : périphériques imprimantes braille</li>
+            <li>handheld : mobiles autres que smartphone</li>
+            <li>print : pour l'impression</li>
+            <li>screen : pour tous les écran</li>
+            <li>tty : terminaux de type telescripteur</li>
+            <li>tv : téléviseurs</li>
+        </ul>
+
+
+        <a href="#header">Move Up !</a>
+    </section>
+
+    <section id="declaration">
+        <h2>Déclaration</h2>
+        <h3>Déclaration d'un élément simple</h3>
+        <p>Pour appliquer un style comme un titre par exemple, on écrit le nom de l'élémént (
+            <code>h1</code>) puis on utilise les
+            <code>{}</code> dans lesquelles nous introduiront des attributs. exemple :
+            <br/>
+            <code>h1 {
+                <br/>
+                <br/> }
+                <br/> </code>
+        </p>
+        <h3>Liste non exhaustive des attributs</h3>
+        <ul>
+            <li>background-color; = change la couleur du background</li>
+            <li>font-family: "Nova Mono", sans-serif; = change la police du texte</li>
+            <li>font-size: 18px; = change la taille de la police du texte</li>
+            <li>color: white; = change la couleur du texte</li>
+            <li>padding-left: 3em; = change la distance gauche entre le contenu et le bord supérieur</li>
+            <li>padding-top: 3em; =change la distance haute entre le contenu et le bord supérieur</li>
+            <li>margin: -20px; = change la taille de la marge du bord de la page</li>
+        </ul>
+
+        <a href="#header">Move Up !</a>
+    </section>
+
+    <section id="3">
+        <h2></h2>
+        <p></p>
+        <a href="#header">Move Up !</a>
+
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
